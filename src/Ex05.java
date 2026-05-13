@@ -18,8 +18,11 @@ public class Ex05 {
             } else if (escolha == menu2) {
                 IO.println("Mensagem secreta..............Blabluble!!!!");
 
-            }else{
+            } else if (escolha == menu3) {
                 IO.println("Menu finalizado.");
+
+            } else {
+                IO.println("Digite o número correto de cada opção.");
             }
         } while (escolha != menu3);
     }
